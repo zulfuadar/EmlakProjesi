@@ -21,6 +21,8 @@ Public Class Form2
                     'Örneğin kolonlarEvSahibiBilgileri dizisinin boyutu 11 olur. 
                     Dim kolonlarEvSahibiBilgileri() As String = {esTcKimlik.Text, esAdı.Text, esSoyadı.Text, esTelefon.Text, esAdres.Text, esVekili.Text, esVekilTelno.Text, hesapAdSoyad.Text, hesapHesapNO.Text, hesapIbanNO.Text, hesapBanka.Text}
                     Dim kolonlarKiraciBilgileri() As String = {kTcKimlik.Text, kAd.Text, kSoyad.Text, kTelefon.Text, kAdres.Text, notlarElektirik.Text, notlarSu.Text, notlarDogalGaz.Text, notlarYakıt.Text, notlarKira.Text, notlarBoya.Text, notlarTesisat.Text, notlarCtv.Text, notlarDigerHasarlar.Text, notlarToplam.Text, notlarNotlar.Text}
+                    Dim kolonlarKiraciMuhasebe() As String = {kTcKimlik.Text, dosyaNo.Text + klasorNO.Text, " ", " ", " ", " ", " ", " "}
+
 
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin Insert metodunu çağırdık'
                     'Bu metod 2 parametre alıyor
@@ -28,7 +30,7 @@ Public Class Form2
                     '2. parametre ise o tabloya değerler. Bu değerler aşağıdaki kolonlarEvSahibiBilgileri örneğinde olduğu gibi String dizi tipinde olmalıdır.
                     veriTabanı.Insert("EvSahibiBilgileri", kolonlarEvSahibiBilgileri)
                     veriTabanı.Insert("KiraciBilgileri", kolonlarKiraciBilgileri)
-
+                    veriTabanı.Insert("KiraciMuhasebe", kolonlarKiraciMuhasebe)
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin conClose metodunu çağırdık'
                     veriTabanı.conClose()
 
