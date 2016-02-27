@@ -40,13 +40,5 @@ Public Class VeriTabanı
 
         'sorguyu çalıştırıyoruz 
         cmd.ExecuteNonQuery()
-
-
-
-
     End Sub
-
-
-
-
 End Class
