@@ -37,8 +37,12 @@ Public Class VeriTabanı
         For i = 0 To (kolonSayısı - 1)
             cmd.Parameters.AddWithValue("@?", kolonlar(i))
         Next
-
+        'selam bebegim'
         'sorguyu çalıştırıyoruz 
         cmd.ExecuteNonQuery()
+
+
+
+        'sdfsdfsdfsdfsdfsdf'
     End Sub
 End Class
