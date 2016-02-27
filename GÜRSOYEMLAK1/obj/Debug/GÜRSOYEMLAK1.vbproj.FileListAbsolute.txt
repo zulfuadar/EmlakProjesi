@@ -107,3 +107,7 @@ C:\Users\Kerem\Desktop\GÜRSOYEMLAK1 (3)\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\G
 C:\Users\Kerem\Desktop\GÜRSOYEMLAK1 (3)\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form2.resources
 C:\Users\Kerem\Desktop\GÜRSOYEMLAK1 (3)\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbproj.GenerateResource.Cache
 C:\Users\Kerem\Desktop\GÜRSOYEMLAK1 (3)\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.adminsorgu.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe.config
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.exe
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.xml
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.pdb
