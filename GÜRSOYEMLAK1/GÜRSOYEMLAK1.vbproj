@@ -80,6 +80,12 @@
     <Compile Include="Admin Paneli.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="adminsorgu.Designer.vb">
+      <DependentUpon>adminsorgu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminsorgu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Evsahibibilgiformu.Designer.vb">
       <DependentUpon>Evsahibibilgiformu.vb</DependentUpon>
     </Compile>
@@ -164,6 +170,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Admin Paneli.resx">
       <DependentUpon>Admin Paneli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminsorgu.resx">
+      <DependentUpon>adminsorgu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Evsahibibilgiformu.resx">
       <DependentUpon>Evsahibibilgiformu.vb</DependentUpon>

@@ -45,4 +45,8 @@ Public Class VeriTabanı
 
         'sdfsdfsdfsdfsdfsdf'
     End Sub
+
+
+
+
 End Class

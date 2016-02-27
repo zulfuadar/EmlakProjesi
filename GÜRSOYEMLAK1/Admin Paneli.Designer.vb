@@ -43,7 +43,7 @@ Partial Class Admin_Paneli
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 47)
+        Me.Label2.Location = New System.Drawing.Point(12, 50)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(28, 13)
         Me.Label2.TabIndex = 1
@@ -58,14 +58,14 @@ Partial Class Admin_Paneli
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(101, 44)
+        Me.TextBox2.Location = New System.Drawing.Point(101, 47)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(158, 20)
         Me.TextBox2.TabIndex = 3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(101, 88)
+        Me.Button1.Location = New System.Drawing.Point(101, 123)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 58)
         Me.Button1.TabIndex = 4
@@ -74,7 +74,7 @@ Partial Class Admin_Paneli
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(182, 88)
+        Me.Button2.Location = New System.Drawing.Point(182, 123)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(77, 58)
         Me.Button2.TabIndex = 5
