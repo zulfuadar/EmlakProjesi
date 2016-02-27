@@ -1,0 +1,296 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GÜRSOYEMLAK1
+</name>
+</assembly>
+<members>
+<member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet.tabloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet.tabloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet.tabloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.tabloTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.UpdateAll(GÜRSOYEMLAK1.mülkbilgileriDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1.tabloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1.tabloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1.tabloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.tabloTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.UpdateAll(GÜRSOYEMLAK1.mülkbilgileriDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:GÜRSOYEMLAK1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GÜRSOYEMLAK1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.KullanıcıDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.MuhasebeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.tabloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.KullanıcıRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.MuhasebeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.tabloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.KullanıcıRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.MuhasebeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3.tabloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.KullanıcıTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.MuhasebeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.tabloTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.UpdateAll(GÜRSOYEMLAK1.mülkbilgileriDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.KullanıcıDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.MuhasebeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.tabloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.KullanıcıRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.MuhasebeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.tabloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.KullanıcıRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.MuhasebeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2.tabloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.KullanıcıTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.MuhasebeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.tabloTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GÜRSOYEMLAK1.mülkbilgileriDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.UpdateAll(GÜRSOYEMLAK1.mülkbilgileriDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

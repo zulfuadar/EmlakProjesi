@@ -1,0 +1,72 @@
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe.config
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Resources.resources
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbproj.GenerateResource.Cache
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.xml
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.pdb
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.xml
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form1.resources
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.exe
+c:\users\kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.pdb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form3.resources
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form2.resources
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form5.resources
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form4.resources
+C:\Users\Kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileri.accdb
+C:\Users\Kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbprojResolveAssemblyReference.cache
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.resx
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.Designer.vb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.vb
+C:\Users\Kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Admin_Paneli.resources
+C:\Users\Kerem\documents\visual studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.KullanıcıEkle.resources
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.Designer.vb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.Designer.vb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.Designer.vb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.Designer.vb
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsc
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsd
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xss
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsc
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsd
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xss
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsc
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsd
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xss
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsc
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsd
+C:\Users\Kerem\Documents\Visual Studio 2015\Projects\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xss
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.resx
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.Designer.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.Designer.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.Designer.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.Designer.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.Designer.vb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsc
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsd
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xss
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsc
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsd
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xss
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsc
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsd
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xss
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsc
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsd
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xss
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe.config
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.pdb
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.xml
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Admin_Paneli.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form5.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form1.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form4.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.KullanıcıEkle.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form3.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Resources.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form2.resources
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbproj.GenerateResource.Cache
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.exe
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.xml
+C:\Users\Zülfü\Desktop\GÜRSOYEMLAK1\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.pdb
