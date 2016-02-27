@@ -149,3 +149,36 @@ C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.exe
 C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.xml
 C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.pdb
 >>>>>>> cbef737aeb62da9040c3d1b715185697552ae171
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.resx
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.Designer.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\Mülk Bilgileri.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.Designer.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.Designer.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.Designer.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.Designer.vb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsc
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xsd
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet.xss
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsc
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xsd
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet1.xss
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsc
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xsd
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet2.xss
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsc
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xsd
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\mülkbilgileriDataSet3.xss
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.exe
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.pdb
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\bin\Debug\GÜRSOYEMLAK1.xml
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbprojResolveAssemblyReference.cache
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Admin_Paneli.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.adminsorgu.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form5.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form1.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form4.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.KullanıcıEkle.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form3.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Resources.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.Form2.resources
+C:\Users\Kerem\Documents\EmlakProjesi\GÜRSOYEMLAK1\obj\Debug\GÜRSOYEMLAK1.vbproj.GenerateResource.Cache
