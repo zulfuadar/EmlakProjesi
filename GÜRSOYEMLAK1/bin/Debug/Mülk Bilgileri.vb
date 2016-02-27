@@ -21,6 +21,11 @@ Public Class Form2
                     'Örneğin kolonlarEvSahibiBilgileri dizisinin boyutu 11 olur. 
                     Dim kolonlarEvSahibiBilgileri() As String = {esTcKimlik.Text, esAdı.Text, esSoyadı.Text, esTelefon.Text, esAdres.Text, esVekili.Text, esVekilTelno.Text, hesapAdSoyad.Text, hesapHesapNO.Text, hesapIbanNO.Text, hesapBanka.Text}
                     Dim kolonlarKiraciBilgileri() As String = {kTcKimlik.Text, kAd.Text, kSoyad.Text, kTelefon.Text, kAdres.Text, notlarElektirik.Text, notlarSu.Text, notlarDogalGaz.Text, notlarYakıt.Text, notlarKira.Text, notlarBoya.Text, notlarTesisat.Text, notlarCtv.Text, notlarDigerHasarlar.Text, notlarToplam.Text, notlarNotlar.Text}
+                    Dim kolonlarYonetici() As String = {yonetimTC.Text, yonetimAd.Text, yonetimSoyad.Text, yonetimTelefon.Text, yonetimKaloriferci.Text, yonetimKaloriferciTel.Text, yonetimYakıt.Text, yonetimOnarım.Text, yonetimDiger.Text}
+                    Dim kolonlarMulkBilgileri() As String = {yonetimTC.Text, esTcKimlik.Text, kTcKimlik.Text, dosyaNo.Text + klasorNO.Text, aMahalle.Text, aSokak.Text, aApart.Text, aApartmanNo.Text, aDaireNo.Text, aAdresKodu.Text, aBinaKodu.Text, aFaturaNo.Text, eskikiraAdı.Text, eskikiracıSoyad.Text, eskikiracıTcKimlikNo.Text, eskikiracıTelefonNo.Text, eskikiracıAdres.Text, suEabone.Text, suYabone.Text, suSicil.Text, suGosterge.Text, suKimAdınaKayıtlı.Text, elektirkKarne.Text, elektrikSıra.Text, elektrikAbone.Text, elektrikGosterge.Text, elektrikKimAdınaKayıtlı.Text, gazBinaNo.Text, gazSayacNo.Text, gazAbone.Text, gazGosterge.Text, gazKimAdınaKayıtlı.Text, depremsigortaAdSoyad.Text, depremsigortasıBaslangicTarihi.Text, depremsigortasıDaskPoliceNO.Text, depremsigortasiBitisTarihi.Text, depremsigortasıKimYatıracak.Text}
+                    Dim kolonlarYonetimMuhasebe() As String = {yonetimTC.Text, dosyaNo.Text + klasorNO.Text, "", "", "", "", "", ""}
+                    Dim kolonlarEvSahibiMuhasebe() As String = {esTcKimlik.Text, dosyaNo.Text + klasorNO.Text, "", "", "", "", "", ""}
+                    Dim kolonlarKiraciMuhasebe() As String = {kTcKimlik.Text, dosyaNo.Text + klasorNO.Text, kAd.Text, kSoyad.Text, "", "", "", "", "", ""}
 
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin Insert metodunu çağırdık'
                     'Bu metod 2 parametre alıyor
@@ -28,7 +33,11 @@ Public Class Form2
                     '2. parametre ise o tabloya değerler. Bu değerler aşağıdaki kolonlarEvSahibiBilgileri örneğinde olduğu gibi String dizi tipinde olmalıdır.
                     veriTabanı.Insert("EvSahibiBilgileri", kolonlarEvSahibiBilgileri)
                     veriTabanı.Insert("KiraciBilgileri", kolonlarKiraciBilgileri)
-
+                    veriTabanı.Insert("YonetimBilgileri", kolonlarYonetici)
+                    veriTabanı.Insert("MulkBilgileri", kolonlarMulkBilgileri)
+                    veriTabanı.Insert("YonetimMuhasebe", kolonlarYonetimMuhasebe)
+                    veriTabanı.Insert("EvSahibiMuhasebe", kolonlarEvSahibiMuhasebe)
+                    veriTabanı.Insert("KiraciMuhasebe", kolonlarKiraciMuhasebe)
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin conClose metodunu çağırdık'
                     veriTabanı.conClose()
 
@@ -254,4 +263,10 @@ Public Class Form2
         '        Temizle()
         '    End If
     End Sub
+
+    Private Sub GroupBox8_Enter(sender As Object, e As EventArgs) Handles GroupBox8.Enter
+
+    End Sub
+
+
 End Class
