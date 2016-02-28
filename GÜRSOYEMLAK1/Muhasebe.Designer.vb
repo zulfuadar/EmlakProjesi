@@ -316,7 +316,7 @@ Partial Class Form3
         Me.DataGridView2.DataSource = Me.MuhasebeBindingSource
         Me.DataGridView2.Location = New System.Drawing.Point(12, 203)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(643, 260)
+        Me.DataGridView2.Size = New System.Drawing.Size(644, 170)
         Me.DataGridView2.TabIndex = 1
         '
         'Tarih2
@@ -482,7 +482,7 @@ Partial Class Form3
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Tarih3, Me.YönetimeÖdenen, Me.Banka, Me.BankaNo, Me.ÖdemeYapanKişi, Me.Toplam3, Me.DosyanoDataGridViewTextBoxColumn, Me.KlasornoDataGridViewTextBoxColumn, Me.KiracitcDataGridViewTextBoxColumn, Me.KiracimuhasebetarihDataGridViewTextBoxColumn, Me.KiracidanalinanDataGridViewTextBoxColumn, Me.KiracidepozitoDataGridViewTextBoxColumn, Me.KiracikomisyonDataGridViewTextBoxColumn, Me.KiracidanaidatDataGridViewTextBoxColumn, Me.KiracitoplamDataGridViewTextBoxColumn, Me.EvsahibitarihDataGridViewTextBoxColumn, Me.EvsahibineödenenDataGridViewTextBoxColumn, Me.EvsahibikesintiDataGridViewTextBoxColumn, Me.EvsahibidekontnoDataGridViewTextBoxColumn, Me.EvsahibitoplamDataGridViewTextBoxColumn, Me.YonetimtarihDataGridViewTextBoxColumn, Me.YonetimeodenenDataGridViewTextBoxColumn, Me.YonetimbankaDataGridViewTextBoxColumn, Me.YonetimbankanoDataGridViewTextBoxColumn, Me.YonetimodemeyapankisiDataGridViewTextBoxColumn, Me.YonetimtoplamDataGridViewTextBoxColumn})
         Me.DataGridView3.DataSource = Me.MuhasebeBindingSource
-        Me.DataGridView3.Location = New System.Drawing.Point(12, 469)
+        Me.DataGridView3.Location = New System.Drawing.Point(12, 379)
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.Size = New System.Drawing.Size(644, 260)
         Me.DataGridView3.TabIndex = 2

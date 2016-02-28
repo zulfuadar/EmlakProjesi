@@ -41,4 +41,22 @@ Public Class VeriTabanı
         'sorguyu çalıştırıyoruz 
         cmd.ExecuteNonQuery()
     End Sub
+
+    Public Function ReturnAllColumnsForDosyano(ByVal dosyaNoklasorNo As String) As OleDbDataReader
+        cmd = New OleDbCommand("SELECT * FROM MulkBilgileri,EvSahibiBilgileri, KiraciBilgileri, YonetimBilgileri  WHERE KiraciBilgileri.kiraci_tckimlik = (Select kiraci_tckimlik FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "') AND EvSahibiBilgileri.evsahibi_tckimlik = (SELECT evsahibi_tckimlik FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "') AND YonetimBilgileri.yonetim_tckimlik = (SELECT yonetim_tckimlik  FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "') AND MulkBilgileri.dosyano_klasorno = '" & dosyaNoklasorNo & "'", bag)
+        Dim reader As OleDbDataReader = cmd.ExecuteReader()
+        Return reader
+    End Function
+    Public Function ReturnAllColumnsForKiraci(ByVal KiraciTc As String) As OleDbDataReader
+        cmd = New OleDbCommand("SELECT * FROM MulkBilgileri,EvSahibiBilgileri, KiraciBilgileri, YonetimBilgileri  WHERE KiraciBilgileri.kiraci_tckimlik = (Select kiraci_tckimlik FROM MulkBilgileri WHERE kiraci_tckimlik = '" & KiraciTc & "') AND EvSahibiBilgileri.evsahibi_tckimlik = (SELECT evsahibi_tckimlik FROM MulkBilgileri WHERE kiraci_tckimlik = '" & KiraciTc & "') AND YonetimBilgileri.yonetim_tckimlik = (SELECT yonetim_tckimlik  FROM MulkBilgileri WHERE kiraci_tckimlik = '" & KiraciTc & "') AND MulkBilgileri.kiraci_tckimlik = '" & KiraciTc & "'", bag)
+        Dim reader As OleDbDataReader = cmd.ExecuteReader()
+        Return reader
+    End Function
+    Public Function ReturnAllColumnsForEvSahibi(ByVal EvSahibiTc As String) As OleDbDataReader
+        cmd = New OleDbCommand("SELECT * FROM MulkBilgileri,EvSahibiBilgileri, KiraciBilgileri, YonetimBilgileri  WHERE KiraciBilgileri.kiraci_tckimlik = (Select kiraci_tckimlik FROM MulkBilgileri WHERE evsahibi_tckimlik= '" & EvSahibiTc & "') AND EvSahibiBilgileri.evsahibi_tckimlik = (SELECT evsahibi_tckimlik FROM MulkBilgileri WHERE evsahibi_tckimlik= '" & EvSahibiTc & "') AND YonetimBilgileri.yonetim_tckimlik = (SELECT yonetim_tckimlik  FROM MulkBilgileri WHERE evsahibi_tckimlik= '" & EvSahibiTc & "') AND MulkBilgileri.evsahibi_tckimlik= '" & EvSahibiTc & "'", bag)
+        Dim reader As OleDbDataReader = cmd.ExecuteReader()
+        Return reader
+    End Function
+
+    
 End Class

@@ -69,6 +69,8 @@ Partial Class Form2
         Me.gazBinaNo = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.yonetimTC = New System.Windows.Forms.TextBox()
+        Me.Label71 = New System.Windows.Forms.Label()
         Me.guncelleBtn = New System.Windows.Forms.Button()
         Me.notlarToplam = New System.Windows.Forms.TextBox()
         Me.notlarNotlar = New System.Windows.Forms.TextBox()
@@ -176,8 +178,6 @@ Partial Class Form2
         Me.dosyaNo = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.klasorNO = New System.Windows.Forms.TextBox()
-        Me.Label70 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.temizleBtn = New System.Windows.Forms.Button()
         Me.yeniKayıtBtn = New System.Windows.Forms.Button()
@@ -186,8 +186,6 @@ Partial Class Form2
         Me.TableAdapterManager = New GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.silBtn = New System.Windows.Forms.Button()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.yonetimTC = New System.Windows.Forms.TextBox()
         CType(Me.TabloBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MülkbilgileriDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox10.SuspendLayout()
@@ -647,6 +645,25 @@ Partial Class Form2
         Me.GroupBox8.TabIndex = 8
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "YÖNETİM"
+        '
+        'yonetimTC
+        '
+        Me.yonetimTC.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TabloBindingSource, "yonetimsoyad", True))
+        Me.yonetimTC.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.yonetimTC.Location = New System.Drawing.Point(88, 13)
+        Me.yonetimTC.Name = "yonetimTC"
+        Me.yonetimTC.Size = New System.Drawing.Size(115, 21)
+        Me.yonetimTC.TabIndex = 46
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(7, 17)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(22, 15)
+        Me.Label71.TabIndex = 45
+        Me.Label71.Text = "TC"
         '
         'guncelleBtn
         '
@@ -1718,53 +1735,32 @@ Partial Class Form2
         '
         Me.dosyaNo.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TabloBindingSource, "dosyano", True))
         Me.dosyaNo.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dosyaNo.Location = New System.Drawing.Point(69, 23)
+        Me.dosyaNo.Location = New System.Drawing.Point(9, 50)
         Me.dosyaNo.Name = "dosyaNo"
-        Me.dosyaNo.Size = New System.Drawing.Size(45, 21)
+        Me.dosyaNo.Size = New System.Drawing.Size(105, 21)
         Me.dosyaNo.TabIndex = 21
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(6, 29)
+        Me.Label18.Location = New System.Drawing.Point(9, 29)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(57, 15)
+        Me.Label18.Size = New System.Drawing.Size(111, 15)
         Me.Label18.TabIndex = 0
-        Me.Label18.Text = "Dosya No"
+        Me.Label18.Text = "Klasör No-Dosya No"
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.klasorNO)
-        Me.GroupBox4.Controls.Add(Me.Label70)
         Me.GroupBox4.Controls.Add(Me.dosyaNo)
         Me.GroupBox4.Controls.Add(Me.Label18)
         Me.GroupBox4.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(848, 12)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(120, 129)
+        Me.GroupBox4.Size = New System.Drawing.Size(131, 129)
         Me.GroupBox4.TabIndex = 4
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "DOSYA"
-        '
-        'klasorNO
-        '
-        Me.klasorNO.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TabloBindingSource, "dosyano", True))
-        Me.klasorNO.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.klasorNO.Location = New System.Drawing.Point(69, 55)
-        Me.klasorNO.Name = "klasorNO"
-        Me.klasorNO.Size = New System.Drawing.Size(45, 21)
-        Me.klasorNO.TabIndex = 23
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(6, 61)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(57, 15)
-        Me.Label70.TabIndex = 22
-        Me.Label70.Text = "Klasör No"
         '
         'GroupBox6
         '
@@ -1848,25 +1844,6 @@ Partial Class Form2
         Me.silBtn.TabIndex = 76
         Me.silBtn.Text = "Button2"
         Me.silBtn.UseVisualStyleBackColor = True
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(7, 17)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(22, 15)
-        Me.Label71.TabIndex = 45
-        Me.Label71.Text = "TC"
-        '
-        'yonetimTC
-        '
-        Me.yonetimTC.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TabloBindingSource, "yonetimsoyad", True))
-        Me.yonetimTC.Font = New System.Drawing.Font("Book Antiqua", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.yonetimTC.Location = New System.Drawing.Point(88, 13)
-        Me.yonetimTC.Name = "yonetimTC"
-        Me.yonetimTC.Size = New System.Drawing.Size(115, 21)
-        Me.yonetimTC.TabIndex = 46
         '
         'Form2
         '
@@ -2085,8 +2062,6 @@ Partial Class Form2
     Friend WithEvents TableAdapterManager As mülkbilgileriDataSet1TableAdapters.TableAdapterManager
     Friend WithEvents Button1 As Button
     Friend WithEvents silBtn As Button
-    Friend WithEvents klasorNO As System.Windows.Forms.TextBox
-    Friend WithEvents Label70 As System.Windows.Forms.Label
     Friend WithEvents yonetimTC As System.Windows.Forms.TextBox
     Friend WithEvents Label71 As System.Windows.Forms.Label
 End Class

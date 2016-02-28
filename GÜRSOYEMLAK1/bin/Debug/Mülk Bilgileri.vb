@@ -21,7 +21,11 @@ Public Class Form2
                     'Örneğin kolonlarEvSahibiBilgileri dizisinin boyutu 11 olur. 
                     Dim kolonlarEvSahibiBilgileri() As String = {esTcKimlik.Text, esAdı.Text, esSoyadı.Text, esTelefon.Text, esAdres.Text, esVekili.Text, esVekilTelno.Text, hesapAdSoyad.Text, hesapHesapNO.Text, hesapIbanNO.Text, hesapBanka.Text}
                     Dim kolonlarKiraciBilgileri() As String = {kTcKimlik.Text, kAd.Text, kSoyad.Text, kTelefon.Text, kAdres.Text, notlarElektirik.Text, notlarSu.Text, notlarDogalGaz.Text, notlarYakıt.Text, notlarKira.Text, notlarBoya.Text, notlarTesisat.Text, notlarCtv.Text, notlarDigerHasarlar.Text, notlarToplam.Text, notlarNotlar.Text}
-                    Dim kolonlarKiraciMuhasebe() As String = {kTcKimlik.Text, dosyaNo.Text + klasorNO.Text, " ", " ", " ", " ", " ", " "}
+                    Dim kolonlarYonetici() As String = {yonetimTC.Text, yonetimAd.Text, yonetimSoyad.Text, yonetimTelefon.Text, yonetimKaloriferci.Text, yonetimKaloriferciTel.Text, yonetimYakıt.Text, yonetimOnarım.Text, yonetimDiger.Text}
+                    Dim kolonlarMulkBilgileri() As String = {yonetimTC.Text, esTcKimlik.Text, kTcKimlik.Text, dosyaNo.Text, aMahalle.Text, aSokak.Text, aApart.Text, aApartmanNo.Text, aDaireNo.Text, aAdresKodu.Text, aBinaKodu.Text, aFaturaNo.Text, eskikiraAdı.Text, eskikiracıSoyad.Text, eskikiracıTcKimlikNo.Text, eskikiracıTelefonNo.Text, eskikiracıAdres.Text, suEabone.Text, suYabone.Text, suSicil.Text, suGosterge.Text, suKimAdınaKayıtlı.Text, elektirkKarne.Text, elektrikSıra.Text, elektrikAbone.Text, elektrikGosterge.Text, elektrikKimAdınaKayıtlı.Text, gazBinaNo.Text, gazSayacNo.Text, gazAbone.Text, gazGosterge.Text, gazKimAdınaKayıtlı.Text, depremsigortaAdSoyad.Text, depremsigortasıBaslangicTarihi.Text, depremsigortasıDaskPoliceNO.Text, depremsigortasiBitisTarihi.Text, depremsigortasıKimYatıracak.Text}
+                    Dim kolonlarYonetimMuhasebe() As String = {yonetimTC.Text, dosyaNo.Text, "", "", "", "", "", ""}
+                    Dim kolonlarEvSahibiMuhasebe() As String = {esTcKimlik.Text, dosyaNo.Text, "", "", "", "", "", ""}
+                    Dim kolonlarKiraciMuhasebe() As String = {kTcKimlik.Text, dosyaNo.Text, kAd.Text, kSoyad.Text, "", "", "", "", "", ""}
 
 
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin Insert metodunu çağırdık'
@@ -30,6 +34,10 @@ Public Class Form2
                     '2. parametre ise o tabloya değerler. Bu değerler aşağıdaki kolonlarEvSahibiBilgileri örneğinde olduğu gibi String dizi tipinde olmalıdır.
                     veriTabanı.Insert("EvSahibiBilgileri", kolonlarEvSahibiBilgileri)
                     veriTabanı.Insert("KiraciBilgileri", kolonlarKiraciBilgileri)
+                    veriTabanı.Insert("YonetimBilgileri", kolonlarYonetici)
+                    veriTabanı.Insert("MulkBilgileri", kolonlarMulkBilgileri)
+                    veriTabanı.Insert("YonetimMuhasebe", kolonlarYonetimMuhasebe)
+                    veriTabanı.Insert("EvSahibiMuhasebe", kolonlarEvSahibiMuhasebe)
                     veriTabanı.Insert("KiraciMuhasebe", kolonlarKiraciMuhasebe)
                     'VeriTabanı classından türettiğimiz veriTabanı nesnesinin conClose metodunu çağırdık'
                     veriTabanı.conClose()
@@ -44,93 +52,100 @@ Public Class Form2
 
     Private Sub araBtn_Click(sender As Object, e As EventArgs) Handles araBtn.Click
 
-        'If Me.dosyaNo.Text = "" And klasorNO.Text = "" Then
-        '    MsgBox("Lütfen Öncelikle Arama Parametreleri Giriniz.", MsgBoxStyle.Exclamation, "DİKKAT")
-        'Else
+        Dim veriTabanı As New VeriTabanı
+        veriTabanı.bag.Open()
 
-
-        '    Dim dosyaNoklasorNo As String = dosyaNo.Text
-        '    Dim sql = "SELECT * FROM EvSahibiBilgileri, KiraciBilgileri, YonetimBilgileri  WHERE KiraciBilgileri.kiraci_tckimlik = (Select kiraci_tckimlik FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "') AND EvSahibiBilgileri.evsahibi_tckimlik = (SELECT evsahibi_tckimlik FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "') AND YonetimBilgileri.yonetim_tckimlik = (SELECT yonetim_tckimlik  FROM MulkBilgileri WHERE dosyano_klasorno = '" & dosyaNoklasorNo & "')"
-        '    bag.Open()
-        '    cmd = New OleDbCommand(sql, bag)
-        '    Dim reader As OleDbDataReader = cmd.ExecuteReader()
-
-        '    While reader.Read
-        '        dosyaNo.Text = reader.GetInt32(0)
-        '        esAdı.Text = reader.GetString(1)
-        '        esSoyadı.Text = reader.GetString(2)
-        '        esTcKimlik.Text = reader.GetString(3)
-        '        esTelefon.Text = reader.GetString(4)
-        '        esAdres.Text = reader.GetString(5)
-        '        esVekili.Text = reader.GetString(6)
-        '        esVekilTelno.Text = reader.GetString(7)
-        '        kAd.Text = reader.GetString(8)
-        '        kSoyad.Text = reader.GetString(9)
-        '        kTcKimlik.Text = reader.GetString(10)
-        '        kTelefon.Text = reader.GetString(11)
-        '        kAdres.Text = reader.GetString(12)
-        '        aMahalle.Text = reader.GetString(13)
-        '        aSokak.Text = reader.GetString(14)
-        '        aApart.Text = reader.GetString(15)
-        '        aApartmanNo.Text = reader.GetString(16)
-        '        aDaireNo.Text = reader.GetString(17)
-        '        aAdresKodu.Text = reader.GetString(18)
-        '        aBinaKodu.Text = reader.GetString(19)
-        '        aFaturaNo.Text = reader.GetString(20)
-        '        suEabone.Text = reader.GetString(21)
-        '        suYabone.Text = reader.GetString(22)
-        '        suSicil.Text = reader.GetString(23)
-        '        suGosterge.Text = reader.GetString(24)
-        '        suKimAdınaKayıtlı.Text = reader.GetString(25)
-        '        elektirkKarne.Text = reader.GetString(26)
-        '        elektrikSıra.Text = reader.GetString(27)
-        '        elektrikAbone.Text = reader.GetString(28)
-        '        elektrikGosterge.Text = reader.GetString(29)
-        '        elektrikKimAdınaKayıtlı.Text = reader.GetString(30)
-        '        gazBinaNo.Text = reader.GetString(31)
-        '        gazSayacNo.Text = reader.GetString(32)
-        '        gazAbone.Text = reader.GetString(33)
-        '        gazGosterge.Text = reader.GetString(34)
-        '        gazKimAdınaKayıtlı.Text = reader.GetString(35)
-        '        yonetimAd.Text = reader.GetString(36)
-        '        yonetimSoyad.Text = reader.GetString(37)
-        '        yonetimTelefon.Text = reader.GetString(38)
-        '        yonetimKaloriferci.Text = reader.GetString(39)
-        '        yonetimKaloriferciTel.Text = reader.GetString(40)
-        '        yonetimYakıt.Text = reader.GetString(41)
-        '        yonetimOnarım.Text = reader.GetString(42)
-        '        yonetimDiger.Text = reader.GetString(43)
-        '        eskikiraAdı.Text = reader.GetString(44)
-        '        eskikiracıSoyad.Text = reader.GetString(45)
-        '        eskikiracıTcKimlikNo.Text = reader.GetString(46)
-        '        eskikiracıTelefonNo.Text = reader.GetString(47)
-        '        eskikiracıAdres.Text = reader.GetString(48)
-        '        hesapAdSoyad.Text = reader.GetString(49)
-        '        hesapHesapNO.Text = reader.GetString(50)
-        '        hesapIbanNO.Text = reader.GetString(51)
-        '        hesapBanka.Text = reader.GetString(52)
-        '        depremsigortaAdSoyad.Text = reader.GetString(53)
-        '        depremsigortasıBaslangicTarihi.Text = reader.GetString(54)
-        '        depremsigortasıDaskPoliceNO.Text = reader.GetString(55)
-        '        depremsigortasiBitisTarihi.Text = reader.GetString(56)
-        '        depremsigortasıKimYatıracak.Text = reader.GetString(57)
-        '        notlarElektirik.Text = reader.GetString(58)
-        '        notlarSu.Text = reader.GetString(59)
-        '        notlarDogalGaz.Text = reader.GetString(60)
-        '        notlarYakıt.Text = reader.GetString(61)
-        '        notlarKira.Text = reader.GetString(62)
-        '        notlarBoya.Text = reader.GetString(63)
-        '        notlarTesisat.Text = reader.GetString(64)
-        '        notlarCtv.Text = reader.GetString(65)
-        '        notlarDigerHasarlar.Text = reader.GetString(66)
-        '        notlarToplam.Text = reader.GetString(67)
-        '        notlarNotlar.Text = reader.GetString(68)
-        '        klasorNO.Text = reader.GetString(69)
-
-        '    End While
-        '    reader.Close()
-        '    conClose()
-        'End If
+        If esTcKimlik.Text <> "" Then
+            Dim reader As OleDbDataReader = veriTabanı.ReturnAllColumnsForEvSahibi(esTcKimlik.Text.ToString())
+            WriteToTextBoxs(reader)
+        ElseIf kTcKimlik.Text <> "" Then
+            Dim reader As OleDbDataReader = veriTabanı.ReturnAllColumnsForKiraci(kTcKimlik.Text.ToString())
+            WriteToTextBoxs(reader)
+        ElseIf dosyaNo.Text <> "" Then
+            Dim reader As OleDbDataReader = veriTabanı.ReturnAllColumnsForDosyano(dosyaNo.Text.ToString)
+            WriteToTextBoxs(reader)
+        Else
+            MsgBox("Lütfen Öncelikle Arama Parametreleri Giriniz.", MsgBoxStyle.Exclamation, "DİKKAT")
+        End If
+        veriTabanı.conClose()
+    End Sub
+    Public Sub WriteToTextBoxs(ByVal reader As OleDbDataReader)
+    
+        While reader.Read
+            dosyaNo.Text = reader.GetString(3)
+            aMahalle.Text = reader.GetString(4)
+            aSokak.Text = reader.GetString(5)
+            aApart.Text = reader.GetString(6)
+            aApartmanNo.Text = reader.GetString(7)
+            aDaireNo.Text = reader.GetString(8)
+            aAdresKodu.Text = reader.GetString(9)
+            aBinaKodu.Text = reader.GetString(10)
+            aFaturaNo.Text = reader.GetString(11)
+            eskikiraAdı.Text = reader.GetString(12)
+            eskikiracıSoyad.Text = reader.GetString(13)
+            eskikiracıTcKimlikNo.Text = reader.GetString(14)
+            eskikiracıTelefonNo.Text = reader.GetString(15)
+            eskikiracıAdres.Text = reader.GetString(16)
+            suEabone.Text = reader.GetString(17)
+            suYabone.Text = reader.GetString(18)
+            suSicil.Text = reader.GetString(19)
+            suGosterge.Text = reader.GetString(20)
+            suKimAdınaKayıtlı.Text = reader.GetString(21)
+            elektirkKarne.Text = reader.GetString(22)
+            elektrikSıra.Text = reader.GetString(23)
+            elektrikAbone.Text = reader.GetString(24)
+            elektrikGosterge.Text = reader.GetString(25)
+            elektrikKimAdınaKayıtlı.Text = reader.GetString(26)
+            gazBinaNo.Text = reader.GetString(27)
+            gazSayacNo.Text = reader.GetString(28)
+            gazAbone.Text = reader.GetString(29)
+            gazGosterge.Text = reader.GetString(30)
+            gazKimAdınaKayıtlı.Text = reader.GetString(31)
+            depremsigortaAdSoyad.Text = reader.GetString(32)
+            depremsigortasıBaslangicTarihi.Text = reader.GetString(33)
+            depremsigortasıDaskPoliceNO.Text = reader.GetString(34)
+            depremsigortasiBitisTarihi.Text = reader.GetString(35)
+            depremsigortasıKimYatıracak.Text = reader.GetString(36)
+            esTcKimlik.Text = reader.GetString(37)
+            esAdı.Text = reader.GetString(38)
+            esSoyadı.Text = reader.GetString(39)
+            esTelefon.Text = reader.GetString(40)
+            esAdres.Text = reader.GetString(41)
+            esVekili.Text = reader.GetString(42)
+            esVekilTelno.Text = reader.GetString(43)
+            hesapAdSoyad.Text = reader.GetString(44)
+            hesapHesapNO.Text = reader.GetString(45)
+            hesapIbanNO.Text = reader.GetString(46)
+            hesapBanka.Text = reader.GetString(47)
+            kTcKimlik.Text = reader.GetString(48)
+            kAd.Text = reader.GetString(49)
+            kSoyad.Text = reader.GetString(50)
+            kTelefon.Text = reader.GetString(51)
+            kAdres.Text = reader.GetString(52)
+            notlarElektirik.Text = reader.GetString(53)
+            notlarSu.Text = reader.GetString(54)
+            notlarDogalGaz.Text = reader.GetString(55)
+            notlarYakıt.Text = reader.GetString(56)
+            notlarKira.Text = reader.GetString(57)
+            notlarBoya.Text = reader.GetString(58)
+            notlarTesisat.Text = reader.GetString(59)
+            notlarCtv.Text = reader.GetString(60)
+            notlarDigerHasarlar.Text = reader.GetString(61)
+            notlarToplam.Text = reader.GetString(62)
+            notlarNotlar.Text = reader.GetString(63)
+            yonetimTC.Text = reader.GetString(64)
+            yonetimAd.Text = reader.GetString(65)
+            yonetimSoyad.Text = reader.GetString(66)
+            yonetimTelefon.Text = reader.GetString(67)
+            yonetimKaloriferci.Text = reader.GetString(68)
+            yonetimKaloriferciTel.Text = reader.GetString(69)
+            yonetimYakıt.Text = reader.GetString(70)
+            yonetimOnarım.Text = reader.GetString(71)
+            yonetimDiger.Text = reader.GetString(72)
+        End While
+        If dosyaNo.Text = "" Or esTcKimlik.Text = "" Or kTcKimlik.Text = "" Then
+            MsgBox("Aradığınız Kayıt Bulunamadı", MsgBoxStyle.Exclamation, "DİKKAT")
+        End If
     End Sub
     Public Sub Temizle()
         dosyaNo.Clear()
@@ -202,7 +217,7 @@ Public Class Form2
         notlarDigerHasarlar.Clear()
         notlarToplam.Clear()
         notlarNotlar.Clear()
-        klasorNO.Clear()
+        yonetimTC.Clear()
     End Sub
     Private Sub temizleBtn_Click(sender As Object, e As EventArgs) Handles temizleBtn.Click
         Temizle()
@@ -256,4 +271,7 @@ Public Class Form2
         '        Temizle()
         '    End If
     End Sub
+
+
+   
 End Class
