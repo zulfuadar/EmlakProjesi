@@ -30,8 +30,9 @@ Partial Class KullanıcıEkle
         Me.sifretxt = New System.Windows.Forms.TextBox()
         Me.kullaniciaditxt = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.sifretekrartxt = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -42,6 +43,7 @@ Partial Class KullanıcıEkle
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 0
+        Me.ComboBox1.Text = "Üye"
         '
         'Label1
         '
@@ -86,36 +88,47 @@ Partial Class KullanıcıEkle
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(126, 151)
+        Me.Button1.Location = New System.Drawing.Point(126, 204)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(84, 33)
+        Me.Button1.Size = New System.Drawing.Size(56, 51)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Kayıt"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'sifretekrartxt
-        '
-        Me.sifretekrartxt.Location = New System.Drawing.Point(110, 88)
-        Me.sifretekrartxt.Name = "sifretekrartxt"
-        Me.sifretekrartxt.Size = New System.Drawing.Size(100, 20)
-        Me.sifretekrartxt.TabIndex = 7
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 91)
+        Me.Label4.Location = New System.Drawing.Point(12, 88)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(77, 13)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Şifreyi Tekrarla"
+        Me.Label4.Size = New System.Drawing.Size(70, 13)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Şifre Tekrarla"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(110, 88)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 8
+        '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.Location = New System.Drawing.Point(199, 204)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(56, 51)
+        Me.Button2.TabIndex = 77
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'KullanıcıEkle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(332, 293)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.sifretekrartxt)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.kullaniciaditxt)
         Me.Controls.Add(Me.sifretxt)
@@ -138,6 +151,7 @@ Partial Class KullanıcıEkle
     Friend WithEvents sifretxt As TextBox
     Friend WithEvents kullaniciaditxt As TextBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents sifretekrartxt As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button2 As Button
 End Class

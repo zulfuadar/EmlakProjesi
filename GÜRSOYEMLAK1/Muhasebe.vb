@@ -88,11 +88,8 @@ Public Class Form3
 
     End Sub
 
-    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles kiraciTc.TextChanged
-
-    End Sub
-
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Close()
 
     End Sub
 End Class

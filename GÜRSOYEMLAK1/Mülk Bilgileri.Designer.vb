@@ -185,7 +185,7 @@ Partial Class Form2
         Me.TabloTableAdapter = New GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.tabloTableAdapter()
         Me.TableAdapterManager = New GÜRSOYEMLAK1.mülkbilgileriDataSet1TableAdapters.TableAdapterManager()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.silBtn = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.TabloBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MülkbilgileriDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox10.SuspendLayout()
@@ -671,7 +671,7 @@ Partial Class Form2
         Me.guncelleBtn.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.guncelleBtn.Location = New System.Drawing.Point(849, 237)
         Me.guncelleBtn.Name = "guncelleBtn"
-        Me.guncelleBtn.Size = New System.Drawing.Size(70, 31)
+        Me.guncelleBtn.Size = New System.Drawing.Size(70, 53)
         Me.guncelleBtn.TabIndex = 73
         Me.guncelleBtn.Text = "Güncelle"
         Me.guncelleBtn.UseVisualStyleBackColor = True
@@ -1797,9 +1797,9 @@ Partial Class Form2
         '
         Me.yeniKayıtBtn.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.yeniKayıtBtn.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.yeniKayıtBtn.Location = New System.Drawing.Point(847, 273)
+        Me.yeniKayıtBtn.Location = New System.Drawing.Point(925, 237)
         Me.yeniKayıtBtn.Name = "yeniKayıtBtn"
-        Me.yeniKayıtBtn.Size = New System.Drawing.Size(146, 33)
+        Me.yeniKayıtBtn.Size = New System.Drawing.Size(72, 53)
         Me.yeniKayıtBtn.TabIndex = 74
         Me.yeniKayıtBtn.Text = "Yeni Kayıt"
         Me.yeniKayıtBtn.UseVisualStyleBackColor = True
@@ -1829,21 +1829,22 @@ Partial Class Form2
         '
         Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button1.Location = New System.Drawing.Point(848, 312)
+        Me.Button1.Location = New System.Drawing.Point(848, 296)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(146, 33)
         Me.Button1.TabIndex = 75
         Me.Button1.Text = "Arşive Aktar"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'silBtn
+        'Button2
         '
-        Me.silBtn.Location = New System.Drawing.Point(925, 237)
-        Me.silBtn.Name = "silBtn"
-        Me.silBtn.Size = New System.Drawing.Size(71, 31)
-        Me.silBtn.TabIndex = 76
-        Me.silBtn.Text = "Button2"
-        Me.silBtn.UseVisualStyleBackColor = True
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.Location = New System.Drawing.Point(938, 335)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(56, 51)
+        Me.Button2.TabIndex = 76
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form2
         '
@@ -1851,7 +1852,7 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.ClientSize = New System.Drawing.Size(1006, 704)
-        Me.Controls.Add(Me.silBtn)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.temizleBtn)
         Me.Controls.Add(Me.yeniKayıtBtn)
@@ -2061,7 +2062,7 @@ Partial Class Form2
     Friend WithEvents TabloTableAdapter As mülkbilgileriDataSet1TableAdapters.tabloTableAdapter
     Friend WithEvents TableAdapterManager As mülkbilgileriDataSet1TableAdapters.TableAdapterManager
     Friend WithEvents Button1 As Button
-    Friend WithEvents silBtn As Button
     Friend WithEvents yonetimTC As System.Windows.Forms.TextBox
     Friend WithEvents Label71 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As Button
 End Class

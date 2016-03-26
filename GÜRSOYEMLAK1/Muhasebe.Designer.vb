@@ -121,6 +121,7 @@ Partial Class Form3
         Me.TableAdapterManager = New GÜRSOYEMLAK1.mülkbilgileriDataSet2TableAdapters.TableAdapterManager()
         Me.MülkbilgileriDataSet = New GÜRSOYEMLAK1.mülkbilgileriDataSet()
         Me.temizleBtn = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MuhasebeBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MülkbilgileriDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -482,9 +483,9 @@ Partial Class Form3
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Tarih3, Me.YönetimeÖdenen, Me.Banka, Me.BankaNo, Me.ÖdemeYapanKişi, Me.Toplam3, Me.DosyanoDataGridViewTextBoxColumn, Me.KlasornoDataGridViewTextBoxColumn, Me.KiracitcDataGridViewTextBoxColumn, Me.KiracimuhasebetarihDataGridViewTextBoxColumn, Me.KiracidanalinanDataGridViewTextBoxColumn, Me.KiracidepozitoDataGridViewTextBoxColumn, Me.KiracikomisyonDataGridViewTextBoxColumn, Me.KiracidanaidatDataGridViewTextBoxColumn, Me.KiracitoplamDataGridViewTextBoxColumn, Me.EvsahibitarihDataGridViewTextBoxColumn, Me.EvsahibineödenenDataGridViewTextBoxColumn, Me.EvsahibikesintiDataGridViewTextBoxColumn, Me.EvsahibidekontnoDataGridViewTextBoxColumn, Me.EvsahibitoplamDataGridViewTextBoxColumn, Me.YonetimtarihDataGridViewTextBoxColumn, Me.YonetimeodenenDataGridViewTextBoxColumn, Me.YonetimbankaDataGridViewTextBoxColumn, Me.YonetimbankanoDataGridViewTextBoxColumn, Me.YonetimodemeyapankisiDataGridViewTextBoxColumn, Me.YonetimtoplamDataGridViewTextBoxColumn})
         Me.DataGridView3.DataSource = Me.MuhasebeBindingSource
-        Me.DataGridView3.Location = New System.Drawing.Point(12, 379)
+        Me.DataGridView3.Location = New System.Drawing.Point(12, 392)
         Me.DataGridView3.Name = "DataGridView3"
-        Me.DataGridView3.Size = New System.Drawing.Size(644, 260)
+        Me.DataGridView3.Size = New System.Drawing.Size(644, 173)
         Me.DataGridView3.TabIndex = 2
         '
         'Tarih3
@@ -749,11 +750,22 @@ Partial Class Form3
         Me.temizleBtn.Text = "Temizle"
         Me.temizleBtn.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.Location = New System.Drawing.Point(790, 209)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(56, 51)
+        Me.Button2.TabIndex = 77
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(863, 741)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.temizleBtn)
         Me.Controls.Add(Me.kiraciSoyad)
         Me.Controls.Add(Me.kiraciAd)
@@ -879,4 +891,5 @@ Partial Class Form3
     Friend WithEvents YonetimbankanoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents YonetimodemeyapankisiDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents YonetimtoplamDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Button2 As Button
 End Class
